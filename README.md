@@ -22,31 +22,26 @@ The project was created as an experimental OSINT-style mapping tool focused on c
 
 ## Aircraft Observed
 
-<p align="center">
-  <img src="example/image1.png" width="400"/>
-</p>
-<p align="center"><b>B-1 Lancer</b></p>
-
----
 
 <p align="center">
-  <img src="example/image2.png" width="400"/>
+  <img src="example/image1.png" width="45%"/>
+  <img src="example/image2.png" width="45%"/>
 </p>
-<p align="center"><b>E-3 Sentry</b></p>
-
----
 
 <p align="center">
-  <img src="example/image3.png" width="400"/>
+  <b>B-1 Lancer</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>E-3 Sentry</b>
 </p>
-<p align="center"><b>Chinese Military Drones</b></p>
-
----
 
 <p align="center">
-  <img src="example/image4.png" width="400"/>
+  <img src="example/image3.png" width="45%"/>
+  <img src="example/image4.png" width="45%"/>
 </p>
-<p align="center"><b>V-22 Osprey</b></p>
+
+<p align="center">
+  <b>Chinese Military Drones</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>V-22 Osprey</b>
+</p>
 
 
 ---
