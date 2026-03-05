@@ -27,15 +27,21 @@ The project was created as an experimental OSINT-style mapping tool focused on c
 </p>
 <p align="center"><b>B-1 Lancer</b></p>
 
+---
+
 <p align="center">
   <img src="example/image2.png" width="400"/>
 </p>
 <p align="center"><b>E-3 Sentry</b></p>
 
+---
+
 <p align="center">
   <img src="example/image3.png" width="400"/>
 </p>
 <p align="center"><b>Chinese Military Drones</b></p>
+
+---
 
 <p align="center">
   <img src="example/image4.png" width="400"/>
