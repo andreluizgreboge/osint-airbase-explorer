@@ -13,38 +13,18 @@ The project was created as an experimental OSINT-style mapping tool focused on c
 
 ---
 
-## Live Demo
+## 🚀 Live Demo
 
-🎮 itch.io page:  
-[[Link here](https://alga93.itch.io/osint-airbase-explorer)]
+[![Play on itch.io](https://img.shields.io/badge/Play%20on-itch.io-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white)](https://alga93.itch.io/osint-airbase-explorer)
+
+---
+
+## 🎥 Video Demo
+
+[![OSINT Airbase Explorer Demo](https://img.youtube.com/vi/svh3ZlUEWDw/maxresdefault.jpg)](https://youtu.be/svh3ZlUEWDw)
 
 ---
 
-## Aircraft Observed
-
-
-<p align="center">
-  <img src="example/image1.png" width="45%"/>
-  <img src="example/image2.png" width="45%"/>
-</p>
-
-<p align="center">
-  <b>B-1 Lancer</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>E-3 Sentry</b>
-</p>
-
-<p align="center">
-  <img src="example/image3.png" width="45%"/>
-  <img src="example/image4.png" width="45%"/>
-</p>
-
-<p align="center">
-  <b>Chinese Military Drones</b> &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>V-22 Osprey</b>
-</p>
-
-
----
 
 ## Features
 
@@ -88,6 +68,7 @@ Each country contains up to 10 publicly known airbases.
 ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white)
 ![OpenStreetMap](https://img.shields.io/badge/Map_Tiles-Satellite-blue?style=for-the-badge)
 
+
 ---
 
 ## Project Structure
@@ -113,6 +94,32 @@ This project is intended for:
 All airbase coordinates were sourced from publicly available information.
 
 This project does not contain classified or restricted data.
+
+---
+
+## Aircraft Observed
+
+
+<p align="center">
+  <img src="example/image1.png" width="45%"/>
+  <img src="example/image2.png" width="45%"/>
+</p>
+
+<p align="center">
+  <b>B-1 Lancer</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>E-3 Sentry</b>
+</p>
+
+<p align="center">
+  <img src="example/image3.png" width="45%"/>
+  <img src="example/image4.png" width="45%"/>
+</p>
+
+<p align="center">
+  <b>Chinese Military Drones</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>V-22 Osprey</b>
+</p>
+
 
 ---
 
