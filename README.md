@@ -16,7 +16,7 @@ The project was created as an experimental OSINT-style mapping tool focused on c
 ## Live Demo
 
 🎮 itch.io page:  
-[Add your itch.io link here]
+[[Link here](https://alga93.itch.io/osint-airbase-explorer)]
 
 ---
 
