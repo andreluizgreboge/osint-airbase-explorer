@@ -1,0 +1,113 @@
+/* css/style.css — lifted verbatim from original <style> block */
+
+:root {
+    --accent-color: #00ff41;
+    --bg-panel: rgba(15, 23, 42, 0.9);
+    --text-color: #e2e8f0;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background: #000;
+    overflow: hidden;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+/* Tactical HUD */
+#controls {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background: var(--bg-panel);
+    color: var(--text-color);
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid var(--accent-color);
+    box-shadow: 0 0 15px rgba(0, 255, 65, 0.2);
+    width: 250px;
+    backdrop-filter: blur(8px);
+}
+
+h3 {
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--accent-color);
+    border-bottom: 1px solid var(--accent-color);
+    padding-bottom: 5px;
+}
+
+label {
+    font-size: 11px;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 15px;
+    color: #94a3b8;
+}
+
+select {
+    background: #1e293b;
+    color: white;
+    border: 1px solid #334155;
+    padding: 8px;
+    width: 100%;
+    margin-top: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+select:focus {
+    border-color: var(--accent-color);
+}
+
+/* Coordinate Display */
+#coords-info {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: var(--bg-panel);
+    color: var(--accent-color);
+    padding: 8px 15px;
+    font-size: 12px;
+    border: 1px solid var(--accent-color);
+    pointer-events: none;
+}
+
+.reset-btn {
+    margin-top: 20px;
+    background: transparent;
+    border: 1px solid #ef4444;
+    color: #ef4444;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.reset-btn:hover {
+    background: #ef4444;
+    color: white;
+}
+
+/* Custom Leaflet Styling */
+.leaflet-popup-content-wrapper {
+    background: var(--bg-panel);
+    color: white;
+    border: 1px solid var(--accent-color);
+    border-radius: 0;
+}
+
+.leaflet-popup-tip {
+    background: var(--accent-color);
+}

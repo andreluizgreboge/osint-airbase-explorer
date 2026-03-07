@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSINT Airbase Explorer</title>
+
+    <!-- 1. Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <!-- 2. Project styles -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+        /* Disclaimer fixo no canto superior direito */
+        #disclaimer {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(0,0,0,0.7);
+            color: #fff;
+            font-size: 0.85em;
+            padding: 6px 10px;
+            border-radius: 4px;
+            z-index: 1000;
+            max-width: 250px;
+            text-align: center;
+            pointer-events: none; /* não atrapalha cliques */
+        }
+    </style>
+</head>
+<body>
+
+    <div id="controls">
+        <h3>AIRBASE OBSERVER</h3>
+
+        <label>Mission Area</label>
+        <select id="country-select">
+            <option value="">-- GLOBAL VIEW --</option>
+            <option value="US">United States</option>
+            <option value="CN">China</option>
+            <option value="RU">Russia</option>
+            <option value="AU">Australia</option>
+            <option value="CA">Canada</option>
+            <option value="EG">Egypt</option>
+            <option value="FI">Finland</option>
+            <option value="FR">France</option>
+            <option value="IN">India</option>
+            <option value="IL">Israel</option>
+            <option value="JP">Japan</option>
+            <option value="KP">North Korea</option>
+            <option value="PK">Pakistan</option>
+            <option value="KR">South Korea</option>
+            <option value="SA">Saudi Arabia</option>
+            <option value="SE">Sweden</option>
+            <option value="TR">Turkey</option>
+            <option value="UK">United Kingdom</option>
+            <option value="BR">Brazil</option>
+        </select>
+
+        <!-- Shown after a country is selected -->
+        <div id="facility-container" style="display:none;">
+            <label>Facility Type</label>
+            <select id="facility-select">
+                <option value="airbases">Air Bases</option>
+                <option value="naval">Naval Bases</option>
+                <option value="radar_missile">Radar &amp; Missile Sites</option>
+            </select>
+        </div>
+
+        <div id="base-container" style="display:none;">
+            <label>Target Facility</label>
+            <select id="base-select">
+                <option value="">-- Select Base --</option>
+            </select>
+        </div>
+
+        <button class="reset-btn" onclick="resetMap()">Reset Observation</button>
+    </div>
+
+    <div id="coords-info">LAT: 0.0000 | LNG: 0.0000</div>
+    <div id="map"></div>
+
+    <!-- Disclaimer fixo -->
+    <div id="disclaimer">
+        ⚠️ Disclaimer: All data is open-source (OSINT), approximate, and for informational purposes only.
+    </div>
+
+    <!-- Scripts must load in this exact order -->
+
+    <!-- 1. Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- 2. Datasets — all three load synchronously before any other script runs -->
+    <script src="data/airbases.js"></script>
+    <script src="data/naval.js"></script>
+    <script src="data/radar_missile.js"></script>
+
+    <!-- 3. Map init — exposes showBases(countryCode, dataset) and resetMap() -->
+    <script src="js/map.js"></script>
+
+    <!-- 4. UI wiring — reads selectors, calls showBases with the right dataset -->
+    <script src="js/ui.js"></script>
+
+</body>
+</html>
