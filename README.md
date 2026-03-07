@@ -140,3 +140,54 @@ No build step required.
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Version](https://img.shields.io/badge/version-1.0-informational)
 
+---
+
+## Latest Update
+
+The project has been expanded beyond airbases and now includes additional types of military infrastructure.
+
+New additions include:
+
+- Naval bases (limited dataset)
+- Radar and missile-related sites
+- Expanded coverage to **19 countries** (United States, China, Russia, Australia, Canada, Egypt, Finland, France, India, Israel, Japan, North Korea, Pakistan, South Korea, Saudi Arabia, Sweden, Turkey, United Kingdom, and Brazil.)
+
+
+
+The internal structure of the project was also improved.  
+Instead of a single HTML file, the project now uses separate datasets and JavaScript modules for map logic and UI.
+
+Current structure:
+
+- `data/airbases.js`
+- `data/naval.js`
+- `data/radar_missile.js`
+- `js/map.js`
+- `js/ui.js`
+
+This keeps the project lightweight while making it easier to expand with new datasets in the future.
+
+## Naval Assets Observed
+
+<p align="center">
+  <img src="example/image5.png" width="45%"/>
+  <img src="example/image6.png" width="45%"/>
+</p>
+
+<p align="center">
+  <b>JSDMF Ships</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Russian Submarines at Polyarny Base</b>
+</p>
+
+## Radar Instalations Observed 
+
+<p align="center">
+  <img src="example/image7.png" width="45%"/>
+  <img src="example/image9.png" width="45%"/>
+</p>
+
+<p align="center">
+  <b>Pine Gap Radar Station</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Chinese Radar</b>
+</p>
+
