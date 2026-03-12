@@ -13,11 +13,6 @@ The project was created as an experimental OSINT-style mapping tool focused on c
 
 ---
 
-## 🚀 Live Demo
-
-[![Play on itch.io](https://img.shields.io/badge/Play%20on-itch.io-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white)](https://alga93.itch.io/osint-airbase-explorer)
-
----
 
 ## 🎥 Video Demo
 
